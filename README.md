@@ -4,6 +4,24 @@
 
 - Practice algorithmic problem solving
 
+## SOLUTION
+
+This function returns all possible consecutive substrings of a given string. It is used in search matching to improve partial keyword recognition.
+
+It uses two nested loops:
+- The outer loop sets the starting point.
+- The inner loop builds and stores substrings by adding one character at a time.
+
+Example:  
+Input → `'abc'`  
+Output → `['a', 'ab', 'abc', 'b', 'bc', 'c']`
+
+### Time Complexity
+
+##Time: O(n²) – for each of n starting points, we build up to n substrings.
+##Space:** O(n²) – all substrings are stored in an array.
+
+
 ## Instructions
 
 Given a string, return all consecutive substrings within that string consisting

@@ -1,3 +1,7 @@
+
+// Returns all consecutive substrings from the input string.
+// Time: O(n^2), Space: O(n^2)
+
 function consecutiveSubstrings(string) {
   const result = [];
 

@@ -1,2 +1,13 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+Solution: 
+This function loops through each character in the string and creates all possible consecutive substrings starting from that character. 
+It uses a nested loop: Outer loop picks the stsarting index, and inner loop builds each substring by appending one character at a time.
+
+Pseudocode
+
+SET result to empty array
+FOR start from 0 to end of string 
+    SET substring to empty string 
+    FOR end from start to end of string 
+        APPEND character at index end to substring 
+        PUSH substring to result 
+Return result 
